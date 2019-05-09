@@ -1,13 +1,13 @@
 <?php
 // Connection variables
-$dbhost	= "mariadb-004.wc1.phx1.stabletransit.com";	   // localhost or IP
-$dbuser	= "556224_newphp";		  // database username
-$dbpass	= "Iz*1256184";		     // database password
-$dbname	= "556224_newphp";    // database name
+$dbhost	= " ";	   // localhost or IP
+$dbuser	= " ";		  // database username
+$dbpass	= " ";		     // database password
+$dbname	= " ";    // database name
 
 
 
-  $con=@mysqli_connect('mariadb-004.wc1.phx1.stabletransit.com', '556224_newphp', 'Iz*1256184', '556224_newphp');
+  $con=@mysqli_connect('$dbhost', '$dbuser', '$dbpass', '$dbname');
     if(!$con){
         die("imposible conectarse: ".mysqli_error($con));
     }
