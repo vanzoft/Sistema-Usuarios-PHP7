@@ -57,11 +57,11 @@ $result = $con->query($query);
 $mail = new PHPMailer();
    /* SMTP parameters. */
    $mail->isSMTP();
-   $mail->Host = 'mail.vanzoft.com';
+   $mail->Host = ' ';
    $mail->SMTPAuth = TRUE;
    $mail->SMTPSecure = 'tls';
-   $mail->Username = 'ivan.zarate@vanzoft.com';
-   $mail->Password = 'Iv4nz4r4t3';
+   $mail->Username = ' ';
+   $mail->Password = ' ';
    $mail->Port = 587;
    
    /* Disable some SSL checks. */
@@ -76,7 +76,7 @@ $mail = new PHPMailer();
 		
 $mail->setFrom('noreply@vanzoft.com', 'ADMIN | WEB');
 $mail->AddAddress("$email");  // Add a recipient
-$mail->addBCC('ivan.zarate@outlook.com');		
+$mail->addBCC(' ');		
 $mail->Subject = utf8_decode('Cambio de contraseña');
 /* Set the mail message body. */
 $body .= "<table style='padding: 10px; background-color: #eeeeee; font-family: Arial; font-size: 11px;' border='0' cellspacing='0' cellpadding='0' width='100%'>
