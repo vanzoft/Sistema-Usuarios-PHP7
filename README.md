@@ -5,3 +5,10 @@ Sistema de usuarios PHP7 con login ajax, restablecimiento de contraseña por lin
 Colaborar con el proyecto.. 
 
 https://paypal.me/vanzoft
+
+
+INSTALACION... 
+
+Copiar los archivos en directorio local, configurar base de datos y asignarla en config.php
+
+extraer cssymas.zip en directorio local para aplicar estilos remplazar los archivos y listo... 
